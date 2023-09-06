@@ -1,6 +1,6 @@
 import cv2 as cv
 
-face_cascades = cv.CascadeClassifier('data/opencv-4.x/opencv/data/haarcascades/haarcascade_frontalface_default.xml')
+face_cascades = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 cap = cv.VideoCapture(0)
 
 fourcc = cv.VideoWriter_fourcc(*'X264')  # Define the codec (X264 for compactibility)
